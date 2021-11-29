@@ -131,7 +131,7 @@ input#new-task {
 }
 
 /* Completed */
-.list#completed-tasks label {
+.list#completed_tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -141,11 +141,11 @@ input#new-task {
   display: none;
 }
 
-.list .item .edit_mode input[type="text"] {
+.list .item.edit_mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.list .item .edit_mode label {
+.list .item.edit_mode label {
   display: none;
 }
